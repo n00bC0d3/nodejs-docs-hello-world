@@ -55,7 +55,8 @@ const router = express.Router();
 
 // Hello World for index page
 app.get('/', function (req, res) {
-    return res.send("Hello World di index line 58!");
+    res.send("Hello World di index line 58!");
+    return res.send("ini line kedua");
 })
 
 app.get('/api', function (req, res) {

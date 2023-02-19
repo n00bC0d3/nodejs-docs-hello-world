@@ -3,7 +3,7 @@
 // https://github.com/microsoft/Web-Dev-For-Beginners/tree/main/7-bank-project/api
 // ***************************************************************************
 
-response.end("Hello World 2.0 !");
+response.end("Hello World 2.0!");
 
 
 const express = require('express');
